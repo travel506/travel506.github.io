@@ -1,0 +1,63 @@
+<doctype>
+<html>
+<style>
+body{
+background-image:url("feedform.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+.f1{
+color:4B0020;
+font-family:cursive;
+font-size:22px;
+}
+.t1{
+ color:#4B0020; 
+font-size:25px;
+}
+.s1{
+background-color:#EBC1BE;
+color:4B0020;
+font-size:26px;
+height:35px;
+width:100px;
+padding:6px;
+}
+</style>
+<body>
+<form  align="center" class="f1" name="f">
+<h1  align="center"><i><b>Rate My Website!</h1><br>
+<input type="text" id="name"  required>First Name</input>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="text" id="name"  required>Last Name<br><br></input><br>
+<input type="email" id="name" required><br>Email</input><br>
+<h2>Please Rate My Website:</h2><br>
+<table class="t1"  align="center" id="name">
+<tr>
+<td></td><td>1</td><td></td><td>2</td><td></td><td>3</td><td></td><td>4</td><td></td><td>5</td><td></td><tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<td>Not Bad</td><td><input type="radio"></td><td></td><td><input type="radio"></td><td></td><td><input type="radio"></td><td></td><td><input type="radio"></td><td></td><td><input type="radio"></td><td></td><td>Excellent</td><tr>
+</table><br><br><h2>
+How would you suggest I improve it?</h2><br>
+<textarea rows="14" cols="38" id="name" required></textarea><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" class="s1" value="Submit" onclick="fun()">
+</form>
+<script>
+function fun()
+{
+var x=document.forms["f"]["name"].value;
+if(x=="")
+{
+alert("Please Try Again!!");
+}
+else
+{
+ alert(" Thank You ");
+}
+}
+</script>
+</body>
+</html>

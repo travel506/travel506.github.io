@@ -1,0 +1,16 @@
+<!doctype>
+<html>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<body>
+<style>
+body{background-image: url("Scrapbooking-paper.jpg");
+}
+</style>
+</head>
+<body><img class="img" src="wildlifetourism.jpg" height="450px" width="95%" margin-left="30px">
+<p class="para">Wildlife tourism is an element of many nations' travel industry centered around observation and interaction with local animal and plant life in their natural habitats. While it can include eco- and animal-friendly tourism, safari hunting and similar high-intervention activities also fall under the umbrella of wildlife tourism. Wildlife tourism, in its simplest sense, is interacting with wild animals in their natural habitat, either by actively (e.g. hunting/collection) or passively (e.g. watching/photography).Wildlife tourism can be defined as any tourist encounters with such wildlife. Wildlife tourism is composed of non-consumptive activities such as viewing, touching and photographing wildlife along with consumptive activities such as fishing and hunting . This focuses on nonconsumptive wildlife tourism, where the death of the wildlife is not the intended outcome of the tourism. </br>
+ Wildlife tourism is an important part of the tourism industries in many countries including many African and South American countries, Australia, India, Canada, Indonesia, Bangladesh, Malaysia, Sri Lanka and Maldives among many. It has experienced a dramatic and rapid growth in recent years worldwide and many elements are closely aligned to eco-tourism and sustainable tourism.</p>
+<br>
+<br>
+<br>
+<ol class="list
